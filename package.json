@@ -1,0 +1,34 @@
+{
+  "name": "Game-accelerator",
+  "version": "1.0.0",
+  "description": "A game accelerator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/xiaowinner/Gameaccelerator.git",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "electron-webpack-quick-start",
+    "electron-react-boilerplate",
+    "electron-react-redux-boilerplate",
+    "electron-boilerplate"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  },
+  "build": {
+    "appId": "Game-accelerator",
+    "mac": {
+      "category": "accelerator"
+    }
+  }
+}
